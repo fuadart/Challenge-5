@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chapter 4</title>
+    <link rel="stylesheet" href="styleChallenge4.css" />
+  </head>
+  <header>
+    <a href="">&lt;</a>
+    <img src="./assets/logo 1.png" alt="" />
+    <h1>ROCK PAPER SCISSORS</h1>
+  </header>
+
+  <body>
+    <main>
+      <div id="player1">
+        <h2>PLAYER 1</h2>
+        <div class="player1Sign batu">
+          <input id="" type="image" onclick="playerCard(0)" src="./assets/batu.png" />
+        </div>
+        <div class="player1Sign kertas">
+          <input id="" type="image" onclick="playerCard(1)" src="./assets/kertas.png" />
+        </div>
+        <div class="player1Sign gunting">
+          <input id="" type="image" onclick="playerCard(2)" src="./assets/gunting.png" />
+        </div>
+      </div>
+      <div id="versus">
+        <p class="versus">V S</p>
+      </div>
+      <div id="computer">
+        <h2>COM</h2>
+        <div class="computerSign">
+          <img src="./assets/batu.png" alt="batu" />
+        </div>
+        <div class="computerSign">
+          <img src="./assets/kertas.png" alt="kertas" />
+        </div>
+        <div class="computerSign">
+          <img src="./assets/gunting.png" alt="gunting" />
+        </div>
+      </div>
+      <input id="refresh-button" type="image" onclick="refreshButton()" src="./assets/refresh.png" />
+    </main>
+    <script src="function.js"></script>
+  </body>
+</html>
